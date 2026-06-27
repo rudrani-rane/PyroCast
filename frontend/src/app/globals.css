@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0a0e17;
+  --foreground: #f9fafb;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-pyrocast-bg text-gray-100 antialiased;
+}
